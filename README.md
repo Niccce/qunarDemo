@@ -35,16 +35,16 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 6. 在`http://localhost:8080`查看项目
 
 # 项目代码结构介绍
-README.md：项目说明文件
-package.json：记录在开发项目时的第三方依赖包
-package-lock.json：帮助我们确定安装的第三方包的版本，保持团队编程的统一
-index.html：项目默认的首页模版文件
-.postcssrc.js：对postcss的配置项
-.gitignore：里面记录的文件不会被提交到仓库
-.eslintrc.js：配置代码的规范
-.eslintignore：里面记录的文件不受eslint检测工具检测
-.editorconfig：帮助我们配置编辑器的语法
-.babelrc：babel配置
+* README.md：项目说明文件
+* package.json：记录在开发项目时的第三方依赖包
+* package-lock.json：帮助我们确定安装的第三方包的版本，保持团队编程的统一
+* index.html：项目默认的首页模版文件
+* .postcssrc.js：对postcss的配置项
+* .gitignore：里面记录的文件不会被提交到仓库
+* .eslintrc.js：配置代码的规范
+* .eslintignore：里面记录的文件不受eslint检测工具检测
+* .editorconfig：帮助我们配置编辑器的语法
+* .babelrc：babel配置
 
 * static目录：放静态资源，例如静态图片，用于模拟数据的json文件
 * node_modules：放第三方依赖的包
