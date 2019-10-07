@@ -70,3 +70,12 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 3. 在src下新建pages文件夹，pages内新建home文件夹，home内新建Home.vue文件（单文件组件）
 4. 改写src->router->index.js
 
+# 项目代码初始化
+> [https://blog.csdn.net/gm0125/article/details/91390885](https://blog.csdn.net/gm0125/article/details/91390885)
+
+1. 新添reset.css，对基本的样式进行设置
+2. 新增border.css，解决移动端1px边框的问题
+3. 在项目依赖中安装fastclick包，用于解决移动端点击延时300ms问题
+    `npm install fastclick --save`
+4. 在[iconfont](https://www.iconfont.cn/)上创建自己的项目
+5. 做一些无用代码的删除
