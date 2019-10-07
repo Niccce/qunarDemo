@@ -34,7 +34,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 5. `npm run dev`，帮我们打包
 6. 在`http://localhost:8080`查看项目
 
-# 项目代码结构介绍
+# 项目代码结构介绍(vue-cli生成的最原始的项目)
 * README.md：项目说明文件
 * package.json：记录在开发项目时的第三方依赖包
 * package-lock.json：帮助我们确定安装的第三方包的版本，保持团队编程的统一
@@ -63,3 +63,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     * webpack.dev.conf.js：开发环境的webpack配置项
     * webpack.prod.conf.js：线上环境的webpack配置项
     * 这是vue-cli自动帮我们构建好的，一般来说不需要怎么修改
+
+## 项目结构优化
+1. 改写src->router->index.js，不引用helloworld组件
+2. 删除src->components目录，因为不需要再用到这个单文件组件
+3. 在src下新建pages文件夹，pages内新建home文件夹，home内新建Home.vue文件（单文件组件）
+4. 改写src->router->index.js
+
