@@ -79,3 +79,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     `npm install fastclick --save`
 4. 在[iconfont](https://www.iconfont.cn/)上创建自己的项目
 5. 做一些无用代码的删除
+
+# 开发
+1. 安装stylus，可以在css中使用变量等，帮助我们开发CSS
+    * `npm install stylus --save`
+    * `npm install stylus-loader --save
+2. 组件内`<style lang='stylus' scoped>`意思是，使用stylus编写css，使用scoped关键字可以限制这个类只对当前元素及其子元素有效
