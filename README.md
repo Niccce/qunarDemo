@@ -86,7 +86,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     * `npm install stylus-loader --save
 2. 组件内`<style lang='stylus' scoped>`意思是，使用stylus编写css，使用scoped关键字可以限制这个类只对当前元素及其子元素有效
 3. 在项目中使用iconfont，在网站上将需要的icon添加到购物车，再添加到自己的项目，然后下载至本地，使用其中的css文件和字体文件，使用某icon时，可以用给定的css里的class，也可以在网站上复制相关icon的代码加到标签中
-4. 企业级开发时，每增加一个新功能，都会创建一个分支进行开发
+4. 企业级开发时，每增加一个新功能，都会创建一个分支进行开发，在那个分支上开发，然后合并分支再将push
 5. 使用[vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)开发轮播图
     `npm install vue-awesome-swiper --save`
     或者指定版本`npm install vue-awesome-swiper@2.6.7 --save`
